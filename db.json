@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$95iCI8x4ipjkhmU0otQ7ueE4NSzG.k01U1QteD7BWWVCwWKv4BX9a",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 1
+    },
+    {
+      "email": "gunjan@gmail.com",
+      "password": "$2a$10$A4XJKTDlUHgWgF/mcPUiseMpzSyA3rXVvfkQ6D3WGaDUCSjkIaDeS",
+      "firstname": "gunjan",
+      "lastname": "limbachiya",
+      "age": "35",
+      "id": 2
+    },
+    {
+      "email": "malhar@gmail.com",
+      "password": "$2a$10$dTnkhOceFsepMrB6mx3ECeOfVRfyt.gKlinZ5.J6UzzXX8NbQdmKK",
+      "firstname": "malhar",
+      "lastname": "limbachiya",
+      "age": "5",
+      "id": 3
+    },
+    {
+      "email": "ritika@gmail.com",
+      "password": "$2a$10$YT031vwGDNBEKJKdNhsbgO3VBqfKoXtvjGPDwOMYUt4/0vI5fkv7K",
+      "firstname": "ritika",
+      "lastname": "limbachiya",
+      "age": "4",
+      "id": 4
+    },
+    {
+      "email": "kashyap@gmail.com",
+      "password": "$2a$10$Sin6HH4w6N0q2BGVaeLJmugOYCFFAObE2Vr65K17ieTciYnhPCGv.",
+      "firstname": "kashyap",
+      "lastname": "limbachiya",
+      "age": "35",
+      "id": 5
+    },
+    {
+      "email": "bhavika@gmail.com",
+      "password": "$2a$10$on21DKPkRkUQDx40joma6unyS/eggleggLiOCa3o5RGy7sB3hl.RK",
+      "firstname": "bhavika",
+      "lastname": "limbachiya",
+      "age": "33",
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Lorem Ipsum Dolor Sit Amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut suscipit urna, eget malesuada mi. Morbi id odio fringilla, laoreet lacus ut, eleifend lectus.",
+      "category": "Technology",
+      "author": "John Doe",
+      "date": "2023-06-01",
+      "image": "https://plus.unsplash.com/premium_photo-1663852297801-d277b7af6594?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "likes": 0,
+      "dislikes": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Praesent Egestas Molestie Nibh",
+      "description": "Praesent egestas molestie nibh, vel gravida nisl congue in. Nam semper gravida tellus nec semper. Morbi lacinia luctus purus, sit amet interdum metus gravida vitae.",
+      "category": "Food",
+      "author": "Jane Smith",
+      "date": "2023-06-02",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "likes": 0,
+      "dislikes": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Vestibulum Odio Tortor",
+      "description": "Vestibulum odio tortor, efficitur sed consectetur a, aliquet ac sem. Phasellus interdum bibendum ante, vitae tincidunt metus pellentesque a. Donec vel tincidunt turpis.",
+      "category": "Food",
+      "author": "John Doe",
+      "date": "2023-06-03",
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1978&q=80",
+      "likes": 1,
+      "dislikes": 0
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "title": "Aliquam Vitae Consequat Nunc",
+      "description": "Aliquam vitae consequat nunc. Sed condimentum lorem eget ex sagittis, in commodo lorem eleifend. Sed vehicula sagittis fermentum. Fusce quis velit vestibulum, finibus est ac, iaculis arcu.",
+      "category": "Food",
+      "author": "Emily Wilson",
+      "date": "2023-06-04",
+      "image": "https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2352&q=80",
+      "likes": 2,
+      "dislikes": 2
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "title": "Suspendisse Fringilla Pharetra",
+      "description": "Suspendisse fringilla pharetra sem, ac pulvinar tortor. Curabitur dapibus urna quis orci finibus, sed dictum justo tristique. Nulla lobortis turpis vitae tellus semper fringilla.",
+      "category": "Health",
+      "author": "Michael Thompson",
+      "date": "2023-06-05",
+      "image": "https://images.unsplash.com/photo-1603384358453-e337643f75fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2437&q=80",
+      "likes": 0,
+      "dislikes": 2
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "title": "Nulla Eu Sapien Laoreet",
+      "description": "Nulla eu sapien laoreet, ultrices lectus id, laoreet odio. Nulla lacinia arcu ut nunc euismod, ac suscipit arcu ultricies. Vestibulum semper ipsum ac lacus eleifend pellentesque.",
+      "category": "Health",
+      "author": "John Doe",
+      "date": "2023-06-06",
+      "image": "https://images.unsplash.com/photo-1543573852-1a71a6ce19bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "likes": 1,
+      "dislikes": 2
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "title": "Fusce Placerat Leo Eu",
+      "description": "Fusce placerat leo eu lectus lacinia, sed viverra erat rhoncus. Ut at ex semper, venenatis velit non, vestibulum ligula. Sed laoreet risus nec arcu venenatis, nec ultricies enim fringilla.",
+      "category": "Fashion",
+      "author": "John Doe",
+      "date": "2023-06-07",
+      "image": "https://images.unsplash.com/photo-1543573852-1a71a6ce19bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "likes": 0,
+      "dislikes": 2
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "title": "Vivamus Ac Urna Dignissim",
+      "description": "Vivamus ac urna dignissim, feugiat libero sed, consequat enim. Integer luctus erat ligula, et ullamcorper nisi feugiat id. Fusce dictum felis id nisi hendrerit, non tristique urna tempor.",
+      "category": "Music",
+      "author": "Olivia Wilson",
+      "date": "2023-06-08",
+      "image": "https://images.unsplash.com/photo-1530648672449-81f6c723e2f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1989&q=80",
+      "likes": 0,
+      "dislikes": 2
+    },
+    {
+      "id": 9,
+      "userId": 4,
+      "title": "Etiam Ac Semper Lacus",
+      "description": "Etiam ac semper lacus. Curabitur a congue urna, ut tincidunt ligula. Pellentesque sed lacus sagittis, hendrerit arcu eget, facilisis purus. Duis eleifend consequat rutrum.",
+      "category": "Music",
+      "author": "Michael Thompson",
+      "date": "2023-06-09",
+      "image": "https://images.unsplash.com/photo-1579372785655-a81b19e99b8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRlc3NlcnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=900&q=60",
+      "likes": 0,
+      "dislikes": 2
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "title": "In Eu Dignissim Eros",
+      "description": "In eu dignissim eros. Proin ultrices purus vel bibendum consequat. Ut aliquam ex non sem volutpat faucibus. Sed dapibus lorem sit amet mauris placerat, non vestibulum ex luctus.",
+      "category": "Business",
+      "author": "Olivia Wilson",
+      "date": "2023-06-10",
+      "image": "https://images.unsplash.com/photo-1615735486329-c61cd40bfcc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "likes": 0,
+      "dislikes": 2
+    }
+  ]
+}
